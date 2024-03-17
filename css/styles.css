@@ -129,7 +129,27 @@
   height: 50vh;
   overflow: hidden;
 }
-
-@media (max-width: 767px) {
-
+a :hover {
+  color: #e2800f;
 }
+ul {
+  list-style-type:circle;
+}
+.nav1 :hover {
+  color: #e2800f;
+}
+@media (min-width: 767px) {
+.line-two{
+  display: none;
+}
+.email-container {
+  display: none;
+}
+.line {
+  display: none;
+}
+.social-icons-container{
+  display: none;
+}
+}
+
