@@ -1,21 +1,9 @@
 #navbarResponsive {
-  display: flex;
   justify-content: center;
 }
-
-#navbarResponsive ul.navbar-nav {
-  text-align: center;
+.navbar-nav .nav-link {
+  color: #aa5353; /* Change to the desired text color */
 }
-
-#navbarResponsive ul.navbar-nav li {
-  display: inline-block;
-  margin-right: 15px; /* Adjust this value as needed */
-}
-
-#navbarResponsive ul.navbar-nav li:last-child {
-  margin-right: 0;
-}
-
 .project-image-container {
   position: relative;
   width: 50%;
@@ -138,7 +126,7 @@ ul {
 .nav1 :hover {
   color: #e2800f;
 }
-@media (min-width: 767px) {
+@media (max-width: 767px) {
 .line-two{
   display: none;
 }

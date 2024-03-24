@@ -29,3 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+const modelViewer = document.querySelector('model-viewer');
+modelViewer.addEventListener('load', () => {
+    console.log('Model loaded');
+});
